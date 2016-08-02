@@ -1,0 +1,150 @@
+.nav-books-li{
+    height: 60px;
+}
+.logoutslide{
+    position: absolute;
+    top: 55px;
+    right: 20px;
+    width: 270px;
+    height: 80px;
+    border-radius: 5px;
+    box-shadow: 0 1px 10px #a4aeb1;
+    background-color: rgba(255,255,249,0.9);
+    z-index: 999999;
+    display: none;
+}
+.logouttriangle{
+    width:0;
+    height:0;
+    border-right:10px solid transparent;
+    border-left:10px solid transparent;
+    border-bottom:10px solid rgba(255,255,249,0.8);
+    position: absolute;
+    right: 10px;
+    top: -10px;
+}
+.logoutslideimgbg{
+    position: absolute;
+    float: left;
+    width: 70px;
+    height: 70px;
+    top: 5px;
+    left: 10px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgba(221, 221, 215, 0.8);
+    transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    box-shadow: 0 1px 10px #c8cbce;
+}
+.logoutslideimg{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 5px;
+    left: 5px;
+    border: none;
+    border-radius: 50px;
+    background: url("../images/user-pic.jpg") no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+.logoutslideimgbg:hover{
+    box-shadow: 0 1px 10px #2e3033;
+}
+.logoutname{
+    position: absolute;
+    text-align: center;
+    width: 200px;
+    left: 50%;
+    margin-left: -60px;
+    max-height: 50px;
+    overflow: hidden;
+    top: 10px;
+    cursor: pointer;
+}
+.logouthr{
+    position: relative;
+    top:35px;
+    right: -110px;
+    max-width:50%;
+    border: 0;
+    border-top: 1px dashed #7b7d80;
+}
+.logoutname-a{
+    position: relative;
+    font-family: "Microsoft YaHei";
+    font-size: 15px;
+    font-weight: bold;
+
+}
+.logoutname-a:hover {
+    animation: move 0.3s ease;
+    -webkit-animation: move 0.3s ease; /*Safari and Chrome*/
+}
+.logoutnotice{
+    position: absolute;
+    height: 30px;
+    width: 100px;
+    bottom: 0px;
+    left: 50%;
+    margin-left: -40px;
+
+}
+.logoutnotice-span{
+    font-family: "Microsoft YaHei";
+    font-size: 15px;
+    font-weight: bold;
+    color: #4267ba;
+}
+.logoutbtn{
+    position: absolute;
+    height: 30px;
+    width: 50px;
+    bottom: 0px;
+    right: 20px;
+    cursor: pointer;
+}
+.logoutbtn-a{
+    font-family: "Microsoft YaHei";
+    font-size: 15px;
+    font-weight: bold;
+    color: #F05F40;
+    top:0;
+    position: relative;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.logoutbtn:hover span{
+
+    animation:move 0.3s ease;
+    -webkit-animation:move 0.3s ease; /*Safari and Chrome*/
+}
+@keyframes move
+{
+    0% {left:0px;}
+    25% {left:3px;}
+    50%{left:0px;}
+    75%{left:-3px;}
+    100%{left:0px;}
+}
+
+@-webkit-keyframes move /*Safari and Chrome*/
+{
+    0% {left:0px;}
+    25% {left:3px;}
+    50%{left:0px;}
+    75%{left:-3px;}
+    100%{left:0px;}
+}
+.logoutnotice-a{
+    color:black;
+    top: 0;
+    font-weight: 300;
+    cursor: pointer;
+}

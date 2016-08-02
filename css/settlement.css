@@ -1,0 +1,109 @@
+html{
+    background-color: #f5f7fa;
+}
+.display-board{
+    height: 300px;
+    position: relative;
+    z-index: 999;
+    margin-top: 10px;
+    width: 800px;
+    border-bottom: 1px solid #e3e5e8;
+    background-color: #fcfcfc;
+    box-shadow: 0 1px 5px #e3e5e8;
+    float: left;
+}
+.content{
+    background-color: #f5f7fa;
+    height:auto;
+}
+.settle-table{
+    position: absolute;
+    width: 500px;
+    height: 120px;
+    left: 50%;
+    margin-left: -250px;
+    top: 20px;
+}
+.settle-table-line{
+    border:0;
+    border-left: 1px solid #d7d7d7;
+    border-top: 1px solid #d7d7d7;
+    height: 30px;
+    width: 505px;
+    background-color: #eaf3f5;
+}
+.settle-table-block-title{
+    border:0;
+    border-right: 1px solid #56a2cf;
+    height: 30px;
+    width: 100px;
+    float: left;
+}
+.settle-table-block{
+    border:0;
+    border-right: 1px solid #d7d7d7;
+    height: 30px;
+    width: 100px;
+    float: left;
+    text-align: center;
+}
+.settle-table-line-title{
+    border:0;
+    border-left: 1px solid #d7d7d7;
+    border-top: 1px solid #d7d7d7;
+    height: 30px;
+    width: 505px;
+    background-color: #56a2cf;
+
+    text-align: center;
+}
+.settle-table-block-title-a{
+    font-family: "Microsoft YaHei";
+    font-size: 15px;
+    color: white;
+    line-height: 30px;
+}
+.settle-table-line-bottom{
+    border:0;
+    border-top: 1px solid #d7d7d7;
+    height: 30px;
+    width: 506px;
+    background-color: #fcfcfc;
+}
+.settle-table-block-bottom{
+    border:0;
+    height: 30px;
+    width: 100px;
+    float: left;
+    border-right: 1px solid transparent;
+    text-align: center;
+}
+.settle-table-block-sum{
+    border:0;
+    height: 30px;
+    width: 100px;
+    float: left;
+    border-right: 1px solid #d7d7d7;
+    border-left: 1px solid #d7d7d7;
+    border-bottom: 1px solid #d7d7d7;
+    text-align: center;
+}
+.line-color-1{
+    background-color: #eaf3f5;
+}
+.line-color-2{
+    background-color: #ffffff;
+}
+.settlement-btn{
+    position: absolute;
+    bottom: 70px;
+    right: 150px;
+    height: 35px;
+    width: 90px;
+}
+.settle-table-block-a{
+    font-family: "Microsoft YaHei";
+    font-size: 12px;
+    color: #999999;
+    line-height: 30px;
+}

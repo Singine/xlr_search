@@ -1,0 +1,253 @@
+html{
+    background-color: #f5f7fa;
+}
+.display-user{
+    height: 250px;
+    position: relative;
+    z-index: 999;
+    margin-top: 10px;
+    margin-right: 20px;
+    width: 250px;
+    border-bottom: 1px solid #e3e5e8;
+    background-color: #fcfcfc;
+    box-shadow: 0 1px 5px #e3e5e8;
+    float: left;
+}
+.display-board{
+    height: 530px;
+    position: relative;
+    z-index: 999;
+    margin-top: 10px;
+    width: 530px;
+    border-bottom: 1px solid #e3e5e8;
+    background-color: #fcfcfc;
+    box-shadow: 0 1px 5px #e3e5e8;
+    float: left;
+}
+.content{
+    background-color: #f5f7fa;
+    height:auto;
+}
+.display-order-box{
+    position: relative;
+    width: 480px;
+    height: 480px;
+    margin: 20px auto;
+    box-shadow: 2px 2px 5px 2px #c6c8cb;
+    background: url("../images/paperbg.jpg");
+    background-size: cover;
+}
+.display-box-img{
+    position: absolute;
+    top: 20px;
+    margin-left: -175px;
+    left: 50%;
+    height: 240px;
+    width: 350px;
+    border-radius: 5px;
+    background: url("../images/recommend.jpg") no-repeat;
+    background-position: center center;
+    background-size: cover;
+    box-shadow: 2px 2px 5px 1px #b5b7ba;
+    z-index: 49;
+}
+.display-box-img-cover{
+    position: absolute;
+    top: 20px;
+    margin-left: -175px;
+    left: 50%;
+    height: 240px;
+    width: 350px;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.8);
+    /*transition: 0.5s ease all;*/
+    /*-moz-transition: 0.5s ease all;*/
+    /*-o-transition: 0.5s ease all;*/
+    /*-webkit-transition: 0.5s ease all;*/
+    z-index: 50;
+    display: none;
+    text-indent: 2em;
+}
+.display-box-img-cover a{
+    color:white;
+
+}
+
+.display-content{
+    width: 250px;
+    height: 120px;
+
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+.display-content-title{
+
+    height: 35px;
+    width: 250px;
+    position: absolute;
+}
+.display-content-title a{
+    padding-left: 1em;
+    font-family: "Microsoft YaHei";
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(27, 27, 27, 0.82);
+    text-shadow: 1px 1px 2px rgba(27, 27, 27, 0.65);
+}
+.display-content-title-bookname{
+    font-family: "Microsoft YaHei";
+    font-size: 18px;
+    font-weight: bold;
+    color: #c5bdb4;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
+}
+.display-content-price{
+
+    height: 35px;
+    width: 250px;
+    top: 35px;
+    position: absolute;
+}
+.display-content-price a{
+    padding-left: 1em;
+    font-family: "Microsoft YaHei";
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(27, 27, 27, 0.82);
+    text-shadow: 1px 1px 2px rgba(27, 27, 27, 0.65);
+}
+.display-content-title-bookprice{
+    font-family: "Microsoft YaHei";
+    font-size: 18px;
+    font-weight: bold;
+    color: #c5bdb4;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
+}
+.display-content-btn{
+    height: 30px;
+    width: 250px;
+    top: 80px;
+    position: absolute;
+    float: left;
+
+}
+.display-collect-btn{
+    height: 30px;
+    width: 100px;
+    background-color: #0095c6;
+    float: left;
+}
+#timeDH{
+    position: absolute;
+    height: 25px;
+    width: 100%;
+    text-align: center;
+    font-family: "Agency FB";
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+#timeMS{
+    position: absolute;
+    height: 25px;
+    width: 100%;
+    text-align: center;
+    top:20px;
+    font-family: "Agency FB";
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+.timecountdownBox{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 40px;
+    font-family: "Agency FB";
+}
+.display-user-img{
+    background: url("../images/jay.jpg") no-repeat;
+    height: 120px;
+    width: 120px;
+    border-radius: 100px;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    box-shadow: 0px 0px 1px #737373;
+    left: 50%;
+    margin-left: -60px;
+    top: 30px;
+}
+.display-user-info{
+    height: 250px;
+    width: 250px;
+    position: absolute;
+
+}
+.display-user-name{
+    position: absolute;
+    height: 30px;
+    width:100%;
+    top: 160px;
+    display: table-cell;
+    text-align: center;
+}
+.display-user-name a{
+    font-family: "Microsoft YaHei";
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.display-user-btn{
+    width: 100%;
+    height: 25px;
+    position: absolute;
+    top: 200px;
+}
+.order-box-btntag{
+    top:30px;
+    display: block;
+}
+.display-box-bg{
+    width: 480px;
+    height: 300px;
+    position: absolute;
+    bottom: 0;
+    cursor: pointer;
+}
+.order-box-btntag-closed{
+    position: absolute;
+    right: 0px;
+    height: 150px;
+    width: 220px;
+    background: url("../images/timeleftClosed.png");
+    background-size: cover;
+    top: 0px;
+    display: block;
+}
+.buyNow{
+    width: 70px;height: 30px;float: right;margin-right: 30px;background-color: #d2223d;box-shadow: 1px 1px 1px #979797;
+}
+.buyNow-disabled{
+    width: 70px;height: 30px;float: right;margin-right: 30px;background-color: #b8b8b8;box-shadow: 1px 1px 1px #979797;
+}
+.collectNow{
+    width: 70px;height: 30px;float: left;margin-left: 30px;background-color: #ffb50f;box-shadow: 1px 1px 1px #979797;
+}
+.collectNow-disabled {
+    width: 70px;height: 30px;float: left;margin-left: 30px;background-color: #b8b8b8;box-shadow: 1px 1px 1px #979797;
+}
+.addFriend{
+    width: 70px;height: 25px;float: left;margin-left: 40px;box-shadow: 1px 1px 1px #979797;
+}
+.addFriend-disabled{
+    background-color: #b8b8b8;width: 70px;height: 25px;float: left;margin-left: 40px;box-shadow: 1px 1px 1px #979797;
+}
+.sendMsg{
+    width: 70px;height: 25px;float: right;margin-right: 40px;background-color: #4bb04b;position: absolute;box-shadow: 1px 1px 1px #979797;
+}
+.sendMsg-disabled{
+    width: 70px;height: 25px;float: right;margin-right: 40px;background-color: #b8b8b8;position: absolute;box-shadow: 1px 1px 1px #979797;
+}

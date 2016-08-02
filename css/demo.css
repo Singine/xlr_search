@@ -1,0 +1,185 @@
+
+*, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+.clearfix:before, .clearfix:after { content: ''; display: table; }
+.clearfix:after { clear: both; }
+
+
+
+
+
+
+
+section {
+	padding: 4% 1em 10%;
+	text-align: center;
+}
+
+label.select-label {
+	display: block;
+	text-transform: uppercase;
+	padding: 1em 0 1.5em;
+	font-size: 75%;
+	letter-spacing: 1px;
+	font-weight: 700;
+	width: 300px;
+	text-align: left;
+	margin: 0 auto;
+	color: #c0c6c4;
+}
+
+.color-4 label.select-label {
+	color: #282b30;
+	font-size: 1em;
+}
+
+/* Header */
+.codrops-header {
+	margin: 0 auto;
+	padding: 2em;
+	text-align: center;
+}
+
+.codrops-header h1 span {
+	display: block;
+	font-size: 30%;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	opacity: 0.8;
+}
+
+.codrops-header h1 {
+	margin: 0;
+	font-weight: 700;
+	font-size: 3.5em;
+	line-height: 1.3;
+}
+
+/* To Navigation Style */
+.codrops-top {
+	width: 100%;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 0.69em;
+	line-height: 2.2;
+}
+
+.codrops-top a {
+	display: inline-block;
+	padding: 0 1em;
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+
+.codrops-top span.right {
+	float: right;
+}
+
+.codrops-top span.right a {
+	display: block;
+	float: left;
+}
+
+.codrops-icon:before {
+	margin: 0 4px;
+	text-transform: none;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	font-family: 'codropsicons';
+	line-height: 1;
+
+	-webkit-font-smoothing: antialiased;
+}
+
+.codrops-icon-drop:before {
+	content: "\e001";
+}
+
+.codrops-icon-prev:before {
+	content: "\e004";
+}
+
+/* Demo Buttons Style */
+.codrops-demos {
+	padding-top: 1em;
+	font-size: 0.9em;
+}
+
+.codrops-demos a {
+	display: inline-block;
+	margin: 0.5em;
+	padding: 0.7em 1.1em;
+	outline: none;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+}
+
+.codrops-demos a.current-demo {
+	color: inherit;
+}
+
+/* Related demos */
+.related {
+	padding-top: 20em;
+}
+
+.related p {
+	font-size: 1.6em;
+}
+
+.related > a {
+	border: 3px solid;
+	border-color: initial;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	margin: 20px 10px;
+	padding: 25px;
+}
+
+.related a img {
+	max-width: 100%;
+	opacity: 0.8;
+}
+
+.related a:hover img,
+.related a:active img {
+	opacity: 1;
+}
+
+.related a h3 {
+	margin: 0;
+	padding: 0.5em 0 0.3em;
+	max-width: 300px;
+	text-align: left;
+}
+
+body #cdawrap {
+	top: auto;
+	bottom: 30px;
+	right: 30px;
+}
+
+@media screen and (max-width: 30em) {
+
+	body::before,
+	body::after {
+		display: none !important;
+	}
+
+	body {
+		border: none !important;
+		padding: 0 !important;
+	}
+
+	.codrops-header h1 {
+		font-size: 2em;
+	}
+
+	.codrops-icon span {
+		display: none;
+	}
+
+}

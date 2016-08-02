@@ -1,0 +1,46 @@
+html{
+    background-color: #f5f7fa;
+}
+.paid-already{
+    position: absolute;
+    height: 200px;
+    width: 500px;
+    left: 50%;
+    margin-left: -250px;
+}
+.paid-img{
+    background: url("../images/tick.png") no-repeat;
+    background-size: 100px 100px;
+    background-position: center;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 90px;
+    top: 50px;
+}
+.paid-text{
+    position: absolute;
+    height: 60px;
+    width: 250px;
+    right: 30px;
+    top: 80px;
+}
+.paid-text a{
+    font-family: "Microsoft YaHei";
+    font-weight: bold;
+    font-size: 40px;
+    color: #636363;
+}
+.paid-countdown{
+    position: absolute;
+    height: 30px;
+    width: 200px;
+    bottom:0;
+    left:50%;
+    margin-left: -100px;
+    text-align: center;
+}
+.paid-countdown a,span{
+    font-size: 12px;
+    color: #999999;
+}

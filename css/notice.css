@@ -1,0 +1,310 @@
+.content-notice-choice{
+    height: 100px;
+    width: 750px;
+    background-color: white;
+    position: relative;
+    margin: 10px auto;
+    box-shadow: 0px 0px 1px #aeaeae;
+    display: none;
+}
+.system-img{
+    background: url("../images/user-pic-system.png");
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    box-shadow: 0px 0px 1px #737373;
+}
+.system-notice-box{
+    position: absolute;
+    height: 80px;
+    width: 500px;
+    left: 50%;
+    top: 10px;
+    margin-left: -250px;
+}
+.system-choice{
+    position: absolute;
+    height: 80px;
+    width: 90px;
+
+    top: 10px;
+    right: 10px;
+}
+.system-choice-title{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+.system-choice-title a{
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+    font-weight: bold;
+    color: #222222;
+    text-shadow: 1px 1px 2px rgba(27, 27, 27, 0.65);
+}
+.dotline{
+    position: absolute;
+    width: 20px;
+    height: 100px;
+    right: 100px;
+    background: url("../images/dotline.png");
+    background-size: cover;
+    background-position: center center;
+}
+.system-choice-content{
+    position: absolute;
+    width: 400px;
+    height: 60px;
+    overflow: hidden;
+    top: 20px;
+    font-size: 12px;
+    right: 0;
+}
+
+.system-choice-agree{
+    height: 35px;
+    width: 90px;
+    position: absolute;
+    top:0px;
+}
+.system-choice-time{
+    position: absolute;
+    right: 150px;
+    bottom: 10px;
+    font-size: 10px;
+    color: #b8b8b8;
+}
+.system-choice-refuse{
+    height: 35px;
+    width: 90px;
+    position: absolute;
+    top: 45px;
+}
+.content-notice-info{
+    height: 100px;
+    width: 750px;
+    background-color: white;
+    position: relative;
+    margin: 10px auto;
+    box-shadow: 0px 0px 1px #aeaeae;
+    display: none;
+}
+.content-notice-chat{
+    height: 100px;
+    width: 750px;
+    background-color: white;
+    position: relative;
+    margin: 10px auto;
+    box-shadow: 0px 0px 1px #aeaeae;
+    display: none;
+}
+.notice-info-box{
+    position: absolute;
+    height: 80px;
+    width: 500px;
+    left: 30px;
+    top: 10px;
+
+}
+.jay-img{
+    background: url("../images/jay.jpg");
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    box-shadow: 0px 0px 1px #737373;
+}
+.info-user-img{
+    background: url("../images/user-pic-system.png");
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    box-shadow: 0px 0px 1px #737373;
+}
+.user-info-content{
+    position: absolute;
+    width: 400px;
+    height: 50px;
+    overflow: hidden;
+    top: 30px;
+    font-size: 12px;
+    right: 0;
+}
+.user-info-name{
+    position: absolute;
+    width: 400px;
+    height: 30px;
+    overflow: hidden;
+    top: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    right: 0;
+    font-family: "Microsoft YaHei";
+}
+.user-info-time{
+    position: absolute;
+    right: 150px;
+    bottom: 10px;
+    font-size: 10px;
+    color: #b8b8b8;
+
+}
+.user-notice-tip{
+    position: absolute;
+    height: 80px;
+    width: 90px;
+    top: 10px;
+    right: 10px;
+}
+.user-notice-tipback{
+    height: 35px;
+    width: 90px;
+    position: absolute;
+    top: 25px;
+}
+.collect-notice-container{
+    position: absolute;
+    width: 800px;
+    height: auto;
+    background-color: #f5f7fa;
+    border: 1px solid #f5f7fa;
+    left: -1px;
+    display: none;
+}
+.system-result-agree{
+    position: absolute;
+    height: 80px;
+    width: 90px;
+    top: 10px;
+    right: 10px;
+    display: block;
+    text-align: center;
+}
+.system-result-agree a{
+    height: 30px;
+    width: 90px;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+    font-weight: normal;
+    color: #acacac;
+    position: absolute;
+    top:50%;
+    margin-top: -15px;
+    left:0;
+    display: none;
+}
+.system-result-refuse{
+    position: absolute;
+    height: 80px;
+    width: 90px;
+    top: 10px;
+    right: 10px;
+    display: block;
+    text-align: center;
+}
+.system-result-refuse a{
+    height: 30px;
+    width: 90px;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+    font-weight: normal;
+    color: #acacac;
+    position: absolute;
+    top:50%;
+    margin-top: -15px;
+    display: none;
+    left:0;
+}
+.tipback-box{
+    position: fixed;
+    width: 400px;
+    height: 150px;
+    left: 50%;
+    margin-left: -200px;
+    z-index: 500;
+    top: 200px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px #adadad;
+    border: 0;
+}
+.tipback-img-blank{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: -60px;
+    top: -60px;
+    background-color: #f9f9f9;
+    border-radius: 100px;
+}
+.tipback-img{
+    background: url("../images/jay.jpg") no-repeat;
+    height: 110px;
+    width: 110px;
+    border-radius: 100px;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 50%;
+    margin-top: -55px;
+    left: 50%;
+    margin-left: -55px;
+}
+.tipback-content-destination{
+    position: absolute;
+    font-size: 15px;
+    font-family: "Microsoft YaHei";
+    font-weight: bold;
+    top: 5px;
+    left: 70px;
+}
+.tipback-content-blank textarea{
+    resize: none;
+    height: 60px;
+    width: 300px;
+    position: absolute;
+    top: 35px;
+    left: 50%;
+    margin-left: -140px;
+    outline: none;
+    background-color: #ffffff;
+    user-select: text;
+    padding: 5px;
+    border: 1px solid #b8b8b8;
+}
+.tipback-btn{
+    position: absolute;
+    right: 30px;
+    top: 112px;
+    height: 30px;
+}
+.tipback-btn span{
+    top: -10px;
+}
+.tipback-cover{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 999;
+    display: none;
+}
+.tipback-cross{
+    position: absolute;
+    height:10px;
+    width: 10px;
+    right: 10px;
+    top: 5px;
+}
+.tipback-cross{
+    color: #c7c9cc;
+    cursor: pointer;
+}

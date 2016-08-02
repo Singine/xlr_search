@@ -1,0 +1,532 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration:none;
+}
+a:active{
+    color: #F05F40;
+}
+::selection {
+    text-shadow: none;
+
+
+    background: rgb(0, 0, 0);
+}
+@font-face {
+    font-family: 'Glyphicons Halflings';
+
+    src: url('../fonts/glyphicons-halflings-regular.eot');
+    src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+body{
+    width: 100%;
+    height:100%;
+}
+.main{
+    width: 100%;
+}
+.header{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(185,185,185,0.6);
+    z-index: 10;
+    transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+}
+
+#top{
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    float: right;
+    right: 30px;
+    bottom: 30px;
+    background-color:rgba(227,64,58,0.8);
+    border: 1px solid rgba(227,64,58,0.8);
+    border-radius: 5px;
+    z-index: 999;
+    text-align: center;
+    transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    opacity: 0;
+}
+#top a{
+    position: relative;
+    color: white;
+    top: 10px;
+    font-size: 15px;
+    font-family: "Microsoft YaHei";
+    font-weight: bold;
+    transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+}
+#top:hover{
+
+    background-color:white;
+    border: 1px solid #b9b9b9;
+}
+#top:hover #top-a{
+    color: black;
+}
+.img-cover{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+    transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+}
+.headImage{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    background-image:  url("../images/mainImage-4.jpg");
+
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    z-index: 1;
+}
+.content{
+    height: 1500px;
+    width: 100%;
+    position: relative;
+    background-color: white;
+}
+.header .main-nav ul{
+    list-style: none;
+    position: relative;
+    float: right;
+    margin-right: 30px;
+}
+.header .main-nav ul li{
+    text-align: center;
+    width: 100px;
+    height: 60px;
+    position: relative;
+    float: left;
+
+
+
+    transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+}
+.nav-li-a{
+    padding: 10px;
+    position: relative;
+    top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #b9b9b9;
+
+
+
+    font-family: "Microsoft YaHei";
+    transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+}
+.header .main-nav ul li:hover .nav-li-a{
+    color: #f9f9f9;
+}
+
+#nav-li1-2{
+    text-align: center;
+    width: 100px;
+    height: 60px;
+    position: relative;
+    float: left;
+    color: black;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-weight: bold;
+    transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+}
+#nav-li2-2{
+    text-align: center;
+    width: 100px;
+    height: 60px;
+    position: relative;
+    float: left;
+    color: black;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-weight: bold;
+    transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+}
+#nav-li3-2{
+    text-align: center;
+    width: 100px;
+    height: 60px;
+    position: relative;
+    float: left;
+    color: black;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-weight: bold;
+    transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+}
+#nav-li4-2{
+    text-align: center;
+    width: 100px;
+    height: 60px;
+    position: relative;
+    float: left;
+    color: black;
+    font-family: "Microsoft YaHei";
+    font-weight: bold;
+    transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+}
+#nav-li1-2:hover{
+    color: #F05F40;
+}
+#nav-li2-2:hover{
+    color: #F05F40;
+}
+#nav-li3-2:hover{
+    color: #F05F40;
+}
+#nav-li4-2:hover{
+    color: #F05F40;
+}
+
+#services-menu{
+    width: 100px;
+    height: 250px;
+    position: fixed;
+    border: 1px solid rgba(185,185,185,0.6);
+    border-top: none;
+    z-index: 10;
+    top: 60px;
+    right: 230px;
+    transition: background-color 0.3s ease;
+    -o-transition: background-color 0.3s ease;
+    -moz-transition: background-color 0.3s ease;
+    -webkit-transition: background-color 0.3s ease;
+    display: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.service-list{
+
+}
+.service-list li {
+    position: relative;
+    text-align: center;
+    width: 100px;
+}
+.service-li-a{
+
+
+
+    padding: 10px;
+    position: relative;
+    top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #b9b9b9;
+    width: 80px;
+    left: 50%;
+    margin-left: -40px;
+
+
+
+    font-family: "Microsoft YaHei";
+    transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+
+}
+.service-list li:hover .service-li-a{
+    color: #f9f9f9;
+}
+.service-list li:hover .hr-list{
+    border-top: 2px solid #f05f40;
+}
+
+
+.div1{
+    width: 100%;
+    height: 500px;
+    background-color:#f05f40;
+}
+.div2{
+    width: 100%;
+    height: 600px;
+    background-color: #ffffff;
+
+}
+.div3{
+    width: 100%;
+    height: 600px;
+    background: url("../images/mainImage-1.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.div4{
+    width: 100%;
+    height: 600px;
+    background-color: #ffffff;
+}
+
+.aboutBox{
+    position: relative;
+    top: 100px;
+    width: 800px;
+    height: 300px;
+    margin: 0 auto;
+}
+hr{
+    margin: 0 auto;
+    max-width: 50px;
+    border: 0;
+    border-top: 4px solid #f05f40;
+    margin-top: 15px;
+    transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -moz-transition:all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+}
+.light{
+
+    border-color: #fff;
+}
+.hr-list{
+    position: relative;
+    max-width: 30px;
+    border-top: 2px solid transparent;
+    margin-top: 30px;
+    left: 30px;
+
+}
+.section-heading{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 30px;
+
+    font-family: "Microsoft YaHei";
+}
+.aboutBox .section-heading{
+    color: #fff;
+}
+.serviceBox{
+    position: relative;
+    top: 100px;
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+}
+.text-faded{
+    font-family: "Microsoft YaHei";
+    text-align: center;
+    position: relative;
+    color: rgba(255,255,255,0.9);
+    top: 30px;
+    margin: 5px auto;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.text-service{
+    font-family: "Microsoft YaHei";
+    text-align: center;
+    width: 220px;
+    position: relative;
+    color: #777;
+    margin: 30px auto;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.serviceContainer{
+    position: relative;
+
+    width: 1200px;
+    height: 250px;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+.service{
+    position: relative;
+    width: 260px;
+    height: 250px;
+    margin: 0 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    float: left;
+    cursor: pointer;
+
+}
+.service-shadow{
+    position: absolute;
+    width: 140px;
+    height: 5px;
+    left:50%;
+    margin-left: -70px;
+    bottom: 5px;
+    background-color:#c1c1c1;
+    box-shadow:0px 0px 10px 5px #c1c1c1;
+    border-radius: 20px;
+    opacity: 0;
+    transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -moz-transition:all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+}
+.service:hover .service-shadow{
+    opacity: 1;
+}
+
+.service-img-1{
+    position: relative;
+    background-image: url("../images/icon/book.png");
+    background-size: cover;
+    height: 80px;
+    width: 80px;
+    margin: 0 auto;
+}
+.service-img-2{
+    position: relative;
+    background-image: url("../images/icon/bicycle.png");
+    background-size: cover;
+    height: 90px;
+    width: 90px;
+    margin: 0 auto;
+}
+.service-img-3{
+    position: relative;
+    background-image: url("../images/icon/paper_plane.png");
+    background-size: cover;
+    height: 80px;
+    width: 80px;
+    margin: 0 auto;
+}
+.service-img-4{
+    position: relative;
+    background-image: url("../images/icon/link.png");
+    background-size: cover;
+    height: 80px;
+    width: 80px;
+    margin: 0 auto;
+}
+
+.showBox{
+    position: relative;
+    top: 100px;
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+}
+.contactBox{
+    position: relative;
+    top: 100px;
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+}
+h3{
+
+    text-align: center;
+    font-family: "Microsoft YaHei";
+    font-size: 25px;
+    margin-top: 30px;
+}
+.h3-bike{
+    margin-top: 20px;
+}
+.text-contact{
+    font-family: "Microsoft YaHei";
+    text-align: center;
+    width: 550px;
+    position: relative;
+    color: #777;
+    margin: 30px auto;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.contact-info{
+
+    width: 600px;
+    height: 200px;
+    margin: 0 auto;
+}
+.contact-info-1{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 0 50px;
+}
+.contact-info-2{
+    float: left;
+    width: 200px;
+    height: 200px;
+
+    margin: 0 50px;
+}
+.contact-info-1-img{
+    margin: 20px auto;
+    width: 80px;
+    height: 80px;
+    background-image: url("../images/icon/phone.png");
+    background-size: cover;
+}
+.contact-info-2-img{
+    margin: 20px auto;
+    width: 80px;
+    height: 80px;
+    background-image: url("../images/icon/mail.png");
+    background-size: cover;
+}
+.text-info{
+    font-family: "Microsoft YaHei";
+    text-align: center;
+    width: 200px;
+    position: absolute;
+    color: #777;
+    margin: 10px auto;
+    font-size: 18px;
+    line-height: 1.5;
+}
+footer{
+
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0,0,0,0.7);
+    position: relative;
+    /*border-top: 1px solid black;*/
+
+}
+.footer-p{
+    font-size: 15px;
+    position: relative;
+    top: 30px;
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+    font-family: "Microsoft YaHei";
+    color: #f9f9f9;
+}
